@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  box-sizing: border-box;
+}
+
+nav {
+height: 70px;
+background-color: black;
+justify-content: space-between;
+display: flex;
+}
+
+#home {
+  background-color: green;
+  padding: 20px 50px;
+  font-family: Arial;
+  font-weight: bold;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#home a {
+  color: white;
+  text-decoration: none;
+}
+
+#links {
+  font-family: Arial;
+  font-weight: bold;
+}
+
+#links a {
+  padding: 20px 50px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  justify-content: space-around;
+}
+
+#links a:hover {
+  cursor: pointer;
+  background-color: white;
+  color: green;
+}
+
+.flex-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+#left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.centered {
+  display: flex;
+  justify-content: space-around;
+}
+
+.right-aligned {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.left-aligned {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.Box {
+  border: solid black 2px;
+  padding: 30px;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  padding-bottom: 60px;
+  padding-right: 60px;
+  font-size: 18px;
+}
+
+#right {
+  flex: 1;
+  
+}
+
+
